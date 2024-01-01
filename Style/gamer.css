@@ -1,0 +1,614 @@
+/* Shared style */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Nav related style */
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.07);
+    align-items: center;
+}
+
+nav div {
+    display: flex;
+    padding: 0px 120px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.about {
+    margin-right: 20px;
+}
+
+.nav-title {
+    color: #FF42A5;
+    font-size: 45px;
+    font-weight: 700;
+    margin-left: 20px;
+
+}
+
+.amer {
+    color: #0B0223;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.nav-btn {
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 20px;
+    padding: 5px;
+}
+
+.nav-btn:hover {
+    background: #fff;
+}
+
+/* Banner related style */
+.bg-div {
+    background-image: url(../images/Group\ 14.png);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.banner-title {
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.goat {
+    text-align: center;
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-container {
+    display: flex;
+    margin: 50px 120px;
+    gap: 50px;
+}
+
+.banner-container ul {
+    list-style: none;
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.frame {
+    margin-right: 10px;
+}
+
+.img-1 {
+    height: 550px;
+}
+
+.sign-btn {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 24px;
+    gap: 10px;
+    background-color: #FF42A5;
+    border-radius: 15px;
+    margin-left: 50px;
+}
+
+.sign-btn:hover {
+    background-color: #4CAF50;
+}
+
+.go-btn {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 24px;
+    gap: 10px;
+    background-color: #4EC5F7;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+
+.go-btn:hover {
+    background-color: #4CAF50;
+}
+
+/* gamer section */
+.gamer-section {
+    display: flex;
+    margin: 20px 120px;
+    gap: 50px;
+}
+
+.gamer-img {
+    height: 350px;
+}
+
+.gamer {
+    text-align: right;
+}
+
+.gamer-title {
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gamer-descrition {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.know-btn {
+    color: #FFF;
+    font-size: 20px;
+    padding: 10px 8px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #FF42A5;
+}
+
+.gamer-speech {
+    color: #534C64;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 15px;
+}
+
+/* Online funny video section */
+.online {
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.funny {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.funny-description {
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.funny-images-container {
+    display: flex;
+    gap: 24px;
+    margin: 20px 120px;
+}
+
+.funny-img {
+    width: 100%;
+    height: 85%;
+}
+
+.funny-img-description {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+/* Ofline section */
+.ofline-container {
+    display: flex;
+    margin: 0px 120px;
+    gap: 191.90px;
+}
+
+.ofline-title1 {
+    color: #F948B2;
+    text-align: right;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 150px;
+}
+
+.ofline-title2 {
+    color: #0B0223;
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.ofline-description {
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.ofline-img1 {
+    width: 500px;
+    height: 600px;
+    margin-top: 50px;
+}
+
+.ofline-img2 {
+    position: relative;
+    bottom: 250px;
+    right: 180px;
+}
+
+/* Online section */
+.online-container {
+    display: flex;
+    margin: 0px 120px;
+    gap: 160px;
+}
+
+.online-img1 {
+    width: 500px;
+    height: 600px;
+}
+
+.online-img2 {
+    position: relative;
+    bottom: 200px;
+    left: 300px;
+}
+
+/* Careers section */
+.careers-container {
+    background: linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%);
+    padding: 50px 120px;
+}
+
+.career-page-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.career-page {
+    display: flex;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    gap: 100px;
+}
+
+.career-title {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.career-description {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-right: 500px;
+}
+
+.children-img {
+    height: 300px;
+}
+
+.position-btn {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background: #FFF;
+    color: #F948B2;
+    padding: 10px 8px;
+    border-radius: 10px;
+}
+
+/* Classical btn section */
+.classical-btn {
+    margin: 50px 120px;
+}
+.white{
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 700; 
+}
+.primary-btn {
+    border-radius: 50px;
+    border: none;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    padding: 5px;
+}
+
+.btn-text {
+    color: #0B0223;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.primary-btn:hover {
+    border: 2px solid brown;
+    background-color: antiquewhite;
+}
+
+.btn-text:hover {
+    color: #F948B2;
+}
+/* Footer section */
+footer{
+    background-color: #0B0223;
+    height: 400px;
+}
+.footer-start{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.footer-pic{
+    width: 86px;
+    height: 40px;
+    margin-top: 50px;
+}
+.footer-li{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+footer a{
+    display: flex;
+    text-decoration: none;
+    color: #FFF;
+}
+.footer-icon{
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+    gap: 50px;
+}
+.footer-icon img{
+    width: 40px;
+    height: 40px;
+}
+.privacy {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 30px;
+}
+.copy-rights {
+    text-align: center;
+    color: #FFF;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive in website */
+/* Mobile device */
+@media screen and (max-width:576px) {
+    nav  {
+        height: 350px;
+        padding: 10px;
+    }
+
+    nav,
+    nav div,
+    .banner-container,
+    .gamer-section,
+    .funny-images-container,
+    .ofline-container,
+    .career-page-container {
+        flex-direction: column;
+    }
+
+    nav,
+    .gamer,
+    .ofline-title1,
+    .ofline-description,
+    .career-title,
+    .career-description {
+        text-align: center;
+        justify-content: center;
+
+    }
+
+    .banner-container,
+    .online-container {
+        flex-direction: column-reverse;
+    }
+
+    .nav,
+    .banner-container,
+    .gamer-section,
+    .funny-images-container,
+    .ofline-container,
+    .ofline-title1,
+    .ofline-img2,
+    .online-container, footer {
+        margin: 10px 5px;
+
+    }
+
+    .bg-div,
+    .careers-container,
+    .img-1,
+    .gamer-img, footer {
+        width: 100%;
+    }
+
+    .bg-div,
+    .careers-container,
+    .career-description {
+        padding: 5px;
+    }
+
+    .ofline-img1,
+    .online-img1 {
+        width: 300px;
+        height: 350px;
+        margin: 0px 50px;
+    }
+
+    .ofline-img2 {
+        position: relative;
+        bottom: 150px;
+        right: 15px;
+        width: 180px;
+    }
+
+    .online-img2 {
+        position: relative;
+        bottom: 150px;
+        right: 25px;
+        width: 150px;
+    }
+
+    .ofline-container,
+    .online-container,
+    .career-page {
+        gap: 20px;
+    }
+    .footer-li, .privacy{
+        gap: 10px;
+    }
+    .position-btn {
+        margin: 20px 110px;
+    }
+
+    .classical-btn, .footer-icon,.privacy ,.footer-li {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 10px 5px;
+    }
+    footer{
+        height: 100%;
+    }
+    br {
+        display: none;
+    }
+}
+
+
+
+
+
+/* Medium device */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+
+    nav,
+    .gamer-section,
+    .funny-images-container,
+    .ofline-container,
+    .career-page-container {
+        flex-direction: column;
+    }
+
+    nav {
+        width: 100%;
+        height: 200px;
+        padding: 50px 0px;
+    }
+
+    .banner-container,
+    .online-container {
+        flex-direction: column-reverse;
+    }
+
+    .bg-div {
+        width: 100%;
+    }
+
+    .gamer-section,
+    .funny-images-container,
+    .ofline-container,
+    .ofline-title1,
+    .position-btn {
+        margin: 50px;
+    }
+
+    .gamer,
+    .ofline-title1,
+    .ofline-description {
+        text-align: center;
+    }
+
+    .ofline-container,
+    .online-container {
+        gap: 30px;
+    }
+
+    .ofline-img1 {
+        margin: 0px 100px;
+    }
+
+    .ofline-img2 {
+        position: relative;
+        width: 200px;
+        bottom: 150px;
+        right: 30px
+    }
+
+    .ofline-title2 {
+        font-size: 42px;
+    }
+
+    .careers-container,
+    .career-description,
+    .career-title,
+    .career-page,
+    .children-img {
+        padding: 10px 50px;
+    }
+
+    br {
+        display: none;
+    }
+    .classical-btn{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 50px;
+    }
+}
